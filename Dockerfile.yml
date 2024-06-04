@@ -1,0 +1,7 @@
+FROM python:3
+
+WORKDIR /app
+
+COPY mail.py /app/mail.py
+
+CMD ["python", "/app/mail.py"]
