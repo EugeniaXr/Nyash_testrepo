@@ -15,5 +15,6 @@ for i in mass2:
             flag = k
             break
         k += 1       
-    mass.append(f'{i}{"" if flag==0 else flag}')
+    mass.append(f'{i}{"" if flag == 0 else flag}')
     print(f'{i}{"" if flag==0 else flag}@beegeek.bzz')
+    
