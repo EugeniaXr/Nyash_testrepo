@@ -8,7 +8,7 @@ for i in mass2:
         if i == j:
             mass3.append("0")
         if i == j[: len(i)] and i != j:
-            mass3.append(j[len(i) :])
+            mass3.append(j[len(i):])
 
     while True:
         if str(k) not in mass3:
